@@ -1,0 +1,167 @@
+.nav-colored { background-color:#7E6747 !important;}
+.nav-transparent { background-color:transparent !important;}
+header{
+    background-image: url(../images/drew-coffman-1872-2jpg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+ 
+}
+h1{
+    font-size:4.5rem;
+}
+.layer{
+    background-color: rgba(0, 0, 0,0.3);
+}
+.button-1{
+    background-color: #7E6747;
+    color: white;
+    transition: 0.3s all;
+    -webkit-transition: 0.3s all;
+    -moz-transition: 0.3s all;
+    -ms-transition: 0.3s all;
+    -o-transition: 0.3s all;
+}
+.button-1:hover{
+    background-color: white;
+    color: black;
+}
+figure img{
+    width: 30px;
+}
+.LinkFocus{
+    position: relative;
+}
+.LinkFocus::after{
+    content: "";
+    position: absolute;
+    transition: all 0.3s 0.2s;
+    background-color:#F9FAFB;
+    width: 100%;
+    height: 2px;
+    top: 100%;
+    left: 0;
+    transform: translateX(-100%);
+    opacity: 0;
+    -webkit-transition: all 0.3s 0.2s;
+    -moz-transition: all 0.3s 0.2s;
+    -ms-transition: all 0.3s 0.2s;
+    -o-transition: all 0.3s 0.2s;
+}
+.LinkFocus:hover::after{
+    transform: translateX(0%);
+    opacity: 1;
+}
+.AboutIcons{
+    width: 40px;
+    height: 40px;
+    border: 0.5px solid #8E7754;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.AboutIcons i{
+    color: #8E7754;
+}
+#OurOffer{
+    background-color: #F8F8F8;
+}
+#OurOffer p{
+    font-size: 1.2rem;
+}
+.navbar-toggler{
+    border-color:#8E7754;
+    background-color: rgba(245, 222, 179, 0.295);
+}
+#Blog{
+    background-color: #F8F8F8;
+}
+.BlogIcons{
+    background-color: #8E7754;
+}
+#Contact{
+    background-color: #403D38;
+}
+.contactLinks{
+    transition: 0.3s all;
+    -webkit-transition: 0.3s all;
+    -moz-transition: 0.3s all;
+    -ms-transition: 0.3s all;
+    -o-transition: 0.3s all;
+}
+.contactLinks:hover{
+    color:white !important;
+}
+footer{
+    background-color: #353330;
+}
+.footerIcons{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    color: #969696;
+    background-color:#403D38;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footerIcons1{
+    transition: 0.3s all;
+    -webkit-transition: 0.3s all;
+    -moz-transition: 0.3s all;
+    -ms-transition: 0.3s all;
+    -o-transition: 0.3s all;
+}
+.footerIcons1:hover{
+    background-color:#3B5998;
+    color: white;
+}
+.footerIcons2{
+    transition: 0.3s all;
+    -webkit-transition: 0.3s all;
+    -moz-transition: 0.3s all;
+    -ms-transition: 0.3s all;
+    -o-transition: 0.3s all;
+}
+.footerIcons2:hover{
+    background-color:#EE2519;
+    color: white;
+}
+.footerIcons3{
+    transition: 0.3s all;
+    -webkit-transition: 0.3s all;
+    -moz-transition: 0.3s all;
+    -ms-transition: 0.3s all;
+    -o-transition: 0.3s all;
+}
+.footerIcons3:hover{
+    background-color:#007BB5;
+    color: white;
+}
+.footerIcons4{
+    transition: 0.3s all;
+    -webkit-transition: 0.3s all;
+    -moz-transition: 0.3s all;
+    -ms-transition: 0.3s all;
+    -o-transition: 0.3s all;
+}
+.footerIcons4:hover{
+    background-color:#00ACED;
+    color: white;
+}
+@media screen and (max-width:700px) {
+   .navMedia{
+    padding-left:0px !important;
+    padding-right:0px !important;
+    }
+    
+}
