@@ -165,3 +165,10 @@ footer{
     }
     
 }
+@media screen and (max-width:500px) {
+   .nav-logo{
+    width: 60%;
+    margin-right: 0% !important;
+   }
+     
+}
