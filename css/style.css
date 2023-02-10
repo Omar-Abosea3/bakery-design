@@ -1,11 +1,11 @@
 .nav-colored { background-color:#7E6747 !important;}
 .nav-transparent { background-color:transparent !important;}
 .navbar1{
-    transition: top 0.4s;
-    -webkit-transition: top 0.4s;
-    -moz-transition: top 0.4s;
-    -ms-transition: top 0.4s;
-    -o-transition: top 0.4s;
+    transition: all 0.4s;
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    -ms-transition: all 0.4s;
+    -o-transition: all 0.4s;
 }
 header{
     background-image: url(../images/drew-coffman-1872-2jpg.jpg);
